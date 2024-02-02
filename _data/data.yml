@@ -57,12 +57,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced engineer in building web applications using React JS and Spring Boot. I like to
+      work on Java and JavaScript related technologies and frameworks. I have worked on
+      developer portal development, and multiple flex to HTML (React JS) migration projects. I
+      would like to work in projects that include REST API, React JS Components, Microservices
+      development.
 education:
     title: Education
     info:
