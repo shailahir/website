@@ -3,13 +3,13 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Shailendra Ahir
-    tagline: Full Stack Developer
+    tagline: Full Stack Web Application Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # http://www.africau.edu/images/default/sample.pdf
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -42,17 +42,17 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Blogging
           link:
 
-        - item: Snowboarding
+        - item: Country music
           link:
 
         - item: Cooking
           link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
       Experienced engineer in building web applications using React JS and Spring Boot. I like to
       work on Java and JavaScript related technologies and frameworks. I have worked on
@@ -84,6 +84,12 @@ experiences:
         company: Mphasis Limited, (Mangalore, Mumbai)
         details: |
           Worked on multiple projects in investment banking, logistics, real estate, AI and insurance domains.
+
+      - role: Intern Java developer
+        time: March 2015 - May 2015
+        company: MG Techno Savvy Private Limited, (Jaipur, Rajasthan)
+        details: |
+          Short term internship as a Java developer. worked on small POCs under Mr. Ravi Kumawat https://www.linkedin.com/in/ravi-analyst/
 
 # certifications:
 #       title: Certifications
@@ -126,33 +132,117 @@ experiences:
 #             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #             Praesent venenatis erat non augue suscipit consectetur.
 
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+    title: Projects
+    intro: >
+      During my tenure at Ascendion and Mphasis Limited, I have worked on multiple projects and contributed 
+      towards user interface, backend services, APIs, schedulers, batches etc. 
+      Here is a list of projects with brief description.
+    assignments:
+      - title: DPAAS - Data Platform as a Service
+        link: 
+        time: 1 September 2023 - Present
+        company: Ascendion Engineering Private Limited (for a Sports brand)
+        techStack: React JS, Spotify Backstage Portal, Node JS, Snowflake, Collibra, Astronomer, Databricks, PostgreSQL
+        description: "DPAAS (Data Platform as a Service) is a platform for automation of team onboarding for
+         the client into the data platforms. It supports the provisioning of resources on Azure, Astronomer,
+          Databricks, Collibra and Snowflake."
+        responsibilities: "As a backstage developer, I have developed a frontend plugin to be integrated into
+         the client's running backstage instance (Tech clubhouse), this UI is integrated with APIs deployed 
+         on PCF securely and can be used to invoke the provisioning of the team related resources on all 
+         supported platforms. Also participated in design, and deployment planning, unit testing and peer reviews."
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: DEVX Portal (Internal Developer Portal)
+        link: 
+        time: 2 March 2022 - 13 August 2023
+        company: Mphasis Limited (for large US based Real Estate group)
+        techStack: React JS, Spotify Backstage Portal, Node JS, AWS S3, PostgreSQL, Go
+        description: "DevX portal is a developer experience portal built on top of the Spotify
+          backstage. It unifies all the resources, source code, documentation, CI/CD, reviews etc in
+          one portal."
+        responsibilities: "I have implemented core features to the project such as software templates
+          and capability taxonomy. Also worked on new plugins to render README files from
+          repositories per project (GitHub and Azure DevOps) using GitHub and Azure APIs. Also, I
+          have implemented the internal and external documentation module, Universal Breadcrumbs,
+          Universal card layout to toggle between table and card layout on screens. Helped fix defects
+          and added test cases."
+      
+      - title: Address EFS
+        link: 
+        time: 13 August 2021 - 1 March 2022
+        company: Mphasis Limited (for a top ecommerce shipping company)
+        techStack: Java, Spring boot, Ant, Maven, Apache Cassandra
+        description: "Address EFS is a group of applications responsible for maintaining the
+          processing and normalisation of the addresses entered by the users. It also manages the
+          delivery preferences and stop information."
+        responsibilities: "I contributed towards modernization of the applications. Migrating from ant to
+          maven and rewriting some of the components to enable cloud deployment."
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: IRIS
+        link: 
+        time: 1 February 2021 - 13 August 2021
+        company: Mphasis Limited (for a large bank from USA)
+        techStack: "HTML 5, CSS, Java - REST API Development, Java Basics/Foundation,
+          Java Script, Spring MVC , WEB & Spring Boot, React JS"
+        description: "IRIS is an application to manage Indexes (Group of bonds). It was written in
+          Adobe flex and was migrated to React JS."
+        responsibilities: "I contributed towards modernization of application by analysing the flex codebase and creating REST
+          services to replace the existing AMF channels for client server communication. Have also
+          written a complete Admin Module in React JS."
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Public Finance portal (2 Phases - Multiple apps)
+        link: 
+        time: 1 July 2019 - 15 December 2020
+        company: Mphasis Limited (for a large bank from USA)
+        techStack: Java - REST API Development; Java Spring MVC, WEB & Spring Boot, React JS
+        description: "The Public Finance suite of tools application enables users to perform various
+          muni business activities like managing credit portfolio, structuring the deal and data
+          intelligence for quick reference and research. Application UI interface is built using Flex
+          technology Java web components"
+        responsibilities: "I handled analysing the flex codebase and creating REST services to
+          replace the existing AMF channels for client server communication. I have written user
+          interface code and took part in peer code reviews."
+      
+      - title: Trade processing system
+        link: 
+        time: 01-Sep-2018 - 01-Jul-2019
+        company: Mphasis Limited (for a large bank from USA)
+        techStack: Java Spring MVC, WEB & Spring Boot
+        description: "Trade processing system is a platform to help international trade. It acts as a
+          mediator between seller and buyer and supplies many functionalities like letter of credit,
+          payment settlements, shipments, document collection etc."
+        responsibilities: "I handled migrating the existing GWT 2.5 based application to GWT 2.8. I
+          have written multiple utilities like automatic deployment plans generation and analysed the
+          database tables for migration plans. Also made some changes to make the system ready for
+          a separate bank branch."
 
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Securitized Products (Multiple apps)
+        link: 
+        time: 01-Dec-2017 - 31-Aug-2018
+        company: Mphasis Limited (for a large bank from USA)
+        techStack: Java - REST API Development; Java Spring MVC, WEB & Spring Boot
+        description: "SPG Homepage/Dashboard is a collection of widgets like components such
+          as HPI, New issuance, Market Monitor and MBS.HPI module consume annual and quarter
+          data from analytic tibco based analytic web service and present as charting components,
+          grid to user interface. New issuance capture deals from IFR on a daily base job using REST
+          API and show them as calendar grid .Market Monitor/MBS having multi tabs each with a Grid
+          display of data being pulled from local DB and tibco RDI service."
+        responsibilities: "I handled REST web service development for modules in this project. Also,
+          I migrated existing SQL Server stored procedures logic to Apache Cassandra suitable Java
+          code for migration. I have written a batch for downloading and updating deals in the
+          database."
 
+      - title: Training Project - Mphasis Learning Academy
+        link: 
+        time: 27-Apr-2017 - 30-Nov-2017
+        company: Mphasis Limited (Internal)
+        techStack: Java - REST API Development; Java Spring MVC, WEB & Spring Boot
+        description: "Mphasis Learning Academy is an in-house training program for campus hired
+          employees. It trains the employees on Java, Testing and .NET technologies. As a practical
+          project, we were given a project “Hospital management” for testing and automation."
+        responsibilities: "I handled testing the application. It included Quality centre and QTP. Load
+          runner for performance testing and Selenium for test automation. I also led the testing team
+          of 5 people."
 # oss:
 #     title: OSS Contributions
 #     intro: >
@@ -195,20 +285,13 @@ experiences:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Technical Skills
 
     toolset:
-      - name: Java and Spring framework
-        level: 90%
+      - name: Java, JavaScript and Shell scripting basics
+      - name: React, Redux, Material UI, Bootstrap, AG Grid, React Flow, Highcharts, react-json-schema and many more.
+      - name: Spring MVC, Spring boot, React JS ecosystem, Spotify backstage.io
+      - name: Git, Ant, Maven, NPM, IntelIj Idea, VS Code
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: React
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: #>
+    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

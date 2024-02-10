@@ -10,28 +10,53 @@
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
+
 
   {% for project in projects.assignments %}
-    <div class="item">
+  <div class="item">
 
-      <span class="project-title">
+    <div class="meta">
+      <div class="upper-row">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <h3 class="job-title">{{ project.title }}</h3>
         {% else %}
-        {{ project.title }}
+        <h3 class="job-title">{{ project.title }}</h3>
         {% endif %}
-      </span>
+        {% if project.time %}
+        <div class="time">
+          {{ project.time }}
+        </div>
+        {% endif %}
+      </div>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if project.company %}
+      <div class="company">
+        {{ project.company }}
+      </div>
       {% endif %}
 
-    </div><!--//item-->
+      {% if project.techStack %}
+      <div class="techStack">
+       Technical Stack:  {{ project.techStack }}
+      </div>
+      {% endif %}
+      
+      {% if project.description %}
+      <div class="description">
+        {{ project.description }}
+      </div>
+      {% endif %}
+
+      
+
+      {% if project.responsibilities %}
+      <div>&nbsp;</div>
+      <div class="responsibilities">
+        {{ project.responsibilities }}
+      </div>
+      {% endif %}
+    </div>
+  </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
